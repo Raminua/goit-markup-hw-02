@@ -81,7 +81,18 @@ color: #212121;
     background-color: var(--accent-color);
     color: var(--white-color);
 }
-
+.features{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 
 /* FEATURES */
 .features{
@@ -147,6 +158,18 @@ color: #212121;
 
 
 /* PORTFOLIO */
+.worklist{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 
 .button {
     font-weight: 500;
