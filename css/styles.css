@@ -14,14 +14,27 @@ font-weight: 400;
 background-color:var(--background-color);
 font-style: normal;
 text-decoration: none;
+color: var(--white-color);
 }
-a:hover,:focus {
-    color: var(--accent-color);
+
+button{
+    font-family: inherit;
 }
 
 a{
-    text-decoration: none;  
+    text-decoration: none;
 }
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link-active {
+    color: var(--accent-color)
+}
+.header-address-link:hover,:focus{
+    color: var(--accent-color);
+}
+
 /* убирает маркеры */
 li{
     list-style: none;
@@ -29,11 +42,10 @@ li{
 .link-active{
     color: var(--accent-color);
 }
-
-/* header */
-.accent{
-    color:var(--accent-color)
+.link,.link-active{
+    color: inherit;
 }
+/* header */
 
 .page-logo{
     font-family: 'Raleway';
@@ -41,7 +53,15 @@ li{
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-color: #212121;
+    color: var(--accent-color);
+    text-decoration: none;
+    
+}
+.logo-black {
+    color: var(--secondory-color);
+}
+.page-footer{
+    color: var(--white-color);
 }
 
 .page-header{
@@ -143,6 +163,9 @@ color: #212121;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.footer-whitelogo{
     color: var(--white-color);
 }
 .footer-map-link{
@@ -154,8 +177,20 @@ color: #212121;
 .footer-address-link{
     font-size: 14px;
     line-height: 1.7;
-    color: var(--primary-color);
+    color:rgba(255, 255, 255, 0.6);
 }
+.footer-address-link:hover,
+.footer-address-link:focus{
+    color: var(--accent-color);
+}
+.footer-map-link:hover,
+.footer-map-link:focus{
+    color: var(--accent-color);
+}
+
+
+
+
 
 
 /* PORTFOLIO */
