@@ -36,11 +36,11 @@ li{
 }
 
 .page-logo{
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 color: #212121;
 }
 
@@ -81,6 +81,7 @@ color: #212121;
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+/* визуално прячет заголовок */
 .features{
     position: absolute;
     width: 1px;
@@ -158,6 +159,7 @@ color: #212121;
 
 
 /* PORTFOLIO */
+/* визуално прячет заголовок */
 .worklist{
     position: absolute;
     width: 1px;
