@@ -101,6 +101,7 @@ li{
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+
 /* визуално прячет заголовок */
 .features{
     position: absolute;
@@ -114,7 +115,13 @@ li{
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-
+.title-text{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
 /* FEATURES */
 .features{
     font-weight: 700;
@@ -124,6 +131,10 @@ li{
     text-transform: uppercase;
     color: (var(--secondory-color));
     text-align: center;   
+}
+.features-title{
+    text-transform: uppercase;
+    color: var(--secondory-color);
 }
 /* ACTIVITY */
 .activity{
@@ -156,6 +167,12 @@ li{
 /* FOOTER */
 .page-footer{
     background-color: #2F303A;
+ 
+}
+
+.footer-maps{
+    text-decoration: none;
+    font-style: normal;
 }
 .page-footer-logo{
     font-family: 'Raleway';
