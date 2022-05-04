@@ -135,6 +135,12 @@ li{
 .features-title{
     text-transform: uppercase;
     color: var(--secondory-color);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
 }
 /* ACTIVITY */
 .activity{
@@ -225,7 +231,7 @@ li{
     overflow: hidden;
     }
 
-.button {
+.button-secondary {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -233,7 +239,7 @@ li{
     letter-spacing: 0.03em;
     color: var(--secondory-color);
     background: #F5F4FA;
-    text-align: center;
+   
     
 }
 
